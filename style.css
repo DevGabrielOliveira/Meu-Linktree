@@ -59,6 +59,10 @@ body{
     padding: 1.5vh;
 }
 
+.container .itens-container .container-midias .midias:hover {
+    transform: scale(1.05); /* AUMENTA O OBJETO EM ESCALA*/
+}
+
 .container .itens-container .container-midias .midias p {
     color: rgb(255, 255, 255);
     text-decoration: none;
