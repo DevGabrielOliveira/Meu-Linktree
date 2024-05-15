@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fundo {
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    z-index: -1; /* DEFINE A POSIÇÃO DO ITEM NA SOBRE OUTROS*/
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    z-index: 1; /* DEFINE A POSIÇÃO DO ITEM NA SOBRE OUTROS*/
+    padding: 4vh;
+    border-radius: 5vh;
+}
+
+.container .itens-container .img-pessoal {
+    margin-bottom: 2vh;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgba(255, 255, 255,0.7);
+}
+
+.container .itens-container .nome {
+
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5vh;
+}
+
+.container .itens-container .descricao-pessoal {
+    color: rgba(255, 255, 255,0.7);
+    font-weight: 100;
+    margin-bottom: 3vh;
+    font-size: 1.8vh;
+}
+
+.container .itens-container .container-midias .midias {
+    background: linear-gradient(to right,#2c0379 , #000000);
+    margin-top: 2vh;
+    border-radius: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1.5vh;
+}
+
+.container .itens-container .container-midias .midias p {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2.5vh;
+}
